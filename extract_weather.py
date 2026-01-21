@@ -4,8 +4,8 @@ import os
 from datetime import datetime, timedelta
 
 # Configuration
-LATITUDE = -22.8333
-LONGITUDE = -43.4000
+LATITUDE = -22.839445 
+LONGITUDE = -43.398826
 WEATHER_FILE = "weather_history.json"
 BILLS_FILE = "bills_history.json"
 

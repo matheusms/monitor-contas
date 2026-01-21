@@ -68,3 +68,9 @@ No Dashboard, abra a barra lateral e clique em **"Atualizar Dados"**. O sistema 
 - `extract_weather.py`: Script de extração de dados climáticos (Open-Meteo).
 - `bills_history.json`: Banco de dados local das faturas processadas.
 - `weather_history.json`: Banco de dados local do histórico de clima.
+
+---
+
+## 🎓 Sobre
+
+Este projeto foi desenvolvido com o auxílio do **Google Antigravity** e seus agentes inteligentes, como parte de um estudo sobre desenvolvimento assistido por IA e automação.
