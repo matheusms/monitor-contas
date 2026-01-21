@@ -17,6 +17,7 @@ O objetivo é automatizar a leitura de faturas da **Light RJ**, extrair dados de
     - Gráfico de Evolução (Consumo x Temperatura Média)
     - Gráfico de Dispersão (Correlação de Custo x Temperatura)
     - Indicadores de Custo Anual e Médias.
+    - **Previsão de Gastos (Beta)**: Estima o valor da próxima fatura com base na previsão do tempo e no seu histórico de consumo.
     - Botão para atualizar dados diretamente pela interface.
 
 ## 🛠️ Instalação e Configuração
