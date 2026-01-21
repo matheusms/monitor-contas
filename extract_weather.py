@@ -65,6 +65,21 @@ def fetch_weather(start_date, end_date):
     response.raise_for_status()
     return response.json()
 
+def fetch_forecast(days=14):
+    url = "https://api.open-meteo.com/v1/forecast"
+    params = {
+        "latitude": LATITUDE,
+        "longitude": LONGITUDE,
+        "daily": ["temperature_2m_max", "temperature_2m_min", "temperature_2m_mean"],
+        "timezone": "America/Sao_Paulo",
+        "forecast_days": days
+    }
+    
+    print(f"Fetching forecast for next {days} days...")
+    response = requests.get(url, params=params)
+    response.raise_for_status()
+    return response.json()
+
 def merge_data(existing, new_data):
     if not existing:
         return new_data
